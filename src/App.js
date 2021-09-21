@@ -4,9 +4,10 @@ import BestBooks from './BestBooks';
 export class App extends Component {
     render() {
         return (
-            <>
-              <BestBooks/> 
-            </>
+            <div className=' container col-md-4' >
+              <BestBooks/>
+              
+            </div>
         )
     }
 }
