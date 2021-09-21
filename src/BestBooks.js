@@ -36,7 +36,7 @@ export class BestBooks extends Component {
                                 <p>{this.state.booksList[0].description}</p>
                                 <p>{this.state.booksList[0].email}</p>
                                 <p>{this.state.booksList[0].status}</p>
-                                <p>{this.state.booksList[0].title}</p>
+                                <p>{this.state.booksList[0].author}</p>
                             </Carousel.Caption>
                         </Carousel.Item>
 
@@ -51,7 +51,7 @@ export class BestBooks extends Component {
                                 <p>{this.state.booksList[1].description}</p>
                                 <p>{this.state.booksList[1].email}</p>
                                 <p>{this.state.booksList[1].status}</p>
-                                <p>{this.state.booksList[1].title}</p>
+                                <p>{this.state.booksList[1].author}</p>
                             </Carousel.Caption>
                         </Carousel.Item>
 
@@ -66,7 +66,7 @@ export class BestBooks extends Component {
                                 <p>{this.state.booksList[2].description}</p>
                                 <p>{this.state.booksList[2].email}</p>
                                 <p>{this.state.booksList[2].status}</p>
-                                <p>{this.state.booksList[2].title}</p>
+                                <p>{this.state.booksList[2].author}</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
